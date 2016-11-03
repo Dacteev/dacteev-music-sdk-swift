@@ -2,11 +2,8 @@ Pod::Spec.new do |s|
     s.name = "DacteevMusic"
     s.version = "0.0.1"
     s.summary = "Dacteev Music SDK"
-
     s.homepage = "https://github.com/Dacteev/dacteev-music-sdk-swift"
-
     s.license = { :type => "MIT", :file => "LICENSE.md" }
-
     s.authors = { "Axel Etcheverry" => "euskadi31@gmail.com" }
     s.social_media_url = "http://twitter.com/euskadi31"
 
@@ -23,10 +20,4 @@ Pod::Spec.new do |s|
     s.source_files = "Sources/*.swift"
 
     s.dependency "Alamofire", "~> 4.0"
-
-    # s.framework  = "SomeFramework"
-    # s.frameworks = "SomeFramework", "AnotherFramework"
-
-    # s.library   = "iconv"
-    # s.libraries = "iconv", "xml2"
 end

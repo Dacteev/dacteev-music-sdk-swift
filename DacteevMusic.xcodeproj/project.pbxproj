@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C111D881DCAE41200895042 /* DacteevMusic+GraphQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C111D871DCAE41200895042 /* DacteevMusic+GraphQL.swift */; };
+		_LinkFileRef_DacteevMusic_via_DacteevMusicTests /* DacteevMusic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_DacteevMusic" /* DacteevMusic.framework */; };
+		__src_cc_ref_Sources/DacteevMusic.swift /* DacteevMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/DacteevMusic.swift /* DacteevMusic.swift */; };
+		__src_cc_ref_Tests/DacteevMusicTests/DacteevMusicTests.swift /* DacteevMusicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Tests/DacteevMusicTests/DacteevMusicTests.swift /* DacteevMusicTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C111D831DCAC90B00895042 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_DacteevMusic";
+			remoteInfo = DacteevMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C111D871DCAE41200895042 /* DacteevMusic+GraphQL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DacteevMusic+GraphQL.swift"; sourceTree = "<group>"; };
+		__PBXFileRef_DacteevMusic.xcodeproj/Configs/Project.xcconfig /* DacteevMusic.xcodeproj/Configs/Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = DacteevMusic.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/DacteevMusic.swift /* DacteevMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DacteevMusic.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Tests/DacteevMusicTests/DacteevMusicTests.swift /* DacteevMusicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DacteevMusicTests.swift; sourceTree = "<group>"; };
+		"_____Product_DacteevMusic" /* DacteevMusic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = DacteevMusic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_DacteevMusicTests" /* DacteevMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = DacteevMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		"___LinkPhase_DacteevMusic" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_DacteevMusicTests" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_DacteevMusic_via_DacteevMusicTests /* DacteevMusic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		TestProducts_ /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_DacteevMusicTests" /* DacteevMusicTests.xctest */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Configs_" /* Configs */,
+				"_____Sources_" /* Sources */,
+				"_______Tests_" /* Tests */,
+				"____Products_" /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				TestProducts_ /* Tests */,
+				"_____Product_DacteevMusic" /* DacteevMusic.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Configs_" /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_DacteevMusic.xcodeproj/Configs/Project.xcconfig /* DacteevMusic.xcodeproj/Configs/Project.xcconfig */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_DacteevMusic" /* DacteevMusic */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_DacteevMusic" /* DacteevMusic */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/DacteevMusic.swift /* DacteevMusic.swift */,
+				3C111D871DCAE41200895042 /* DacteevMusic+GraphQL.swift */,
+			);
+			name = DacteevMusic;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_DacteevMusicTests" /* DacteevMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Tests/DacteevMusicTests/DacteevMusicTests.swift /* DacteevMusicTests.swift */,
+			);
+			name = DacteevMusicTests;
+			path = Tests/DacteevMusicTests;
+			sourceTree = "<group>";
+		};
+		"_______Tests_" /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_DacteevMusicTests" /* DacteevMusicTests */,
+			);
+			name = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"______Target_DacteevMusic" /* DacteevMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_DacteevMusic" /* Build configuration list for PBXNativeTarget "DacteevMusic" */;
+			buildPhases = (
+				CompilePhase_DacteevMusic /* Sources */,
+				"___LinkPhase_DacteevMusic" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DacteevMusic;
+			productName = DacteevMusic;
+			productReference = "_____Product_DacteevMusic" /* DacteevMusic.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_DacteevMusicTests" /* DacteevMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_DacteevMusicTests" /* Build configuration list for PBXNativeTarget "DacteevMusicTests" */;
+			buildPhases = (
+				CompilePhase_DacteevMusicTests /* Sources */,
+				"___LinkPhase_DacteevMusicTests" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_DacteevMusic /* PBXTargetDependency */,
+			);
+			name = DacteevMusicTests;
+			productName = DacteevMusicTests;
+			productReference = "_____Product_DacteevMusicTests" /* DacteevMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "DacteevMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"______Target_DacteevMusic" /* DacteevMusic */,
+				"______Target_DacteevMusicTests" /* DacteevMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CompilePhase_DacteevMusic /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				3C111D881DCAE41200895042 /* DacteevMusic+GraphQL.swift in Sources */,
+				__src_cc_ref_Sources/DacteevMusic.swift /* DacteevMusic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_DacteevMusicTests /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Tests/DacteevMusicTests/DacteevMusicTests.swift /* DacteevMusicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		__Dependency_DacteevMusic /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_DacteevMusic" /* DacteevMusic */;
+			targetProxy = 3C111D831DCAC90B00895042 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		_ReleaseConf_DacteevMusic /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DacteevMusic.xcodeproj/DacteevMusic_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = DacteevMusic;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		_ReleaseConf_DacteevMusicTests /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DacteevMusic.xcodeproj/DacteevMusicTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		"___DebugConf_DacteevMusic" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DacteevMusic.xcodeproj/DacteevMusic_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = DacteevMusic;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_INCLUDE_PATHS = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"___DebugConf_DacteevMusicTests" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				INFOPLIST_FILE = DacteevMusic.xcodeproj/DacteevMusicTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_DacteevMusic.xcodeproj/Configs/Project.xcconfig /* DacteevMusic.xcodeproj/Configs/Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_DacteevMusic.xcodeproj/Configs/Project.xcconfig /* DacteevMusic.xcodeproj/Configs/Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		"___RootConfs_" /* Build configuration list for PBXProject "DacteevMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_DacteevMusic" /* Build configuration list for PBXNativeTarget "DacteevMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_DacteevMusic" /* Debug */,
+				_ReleaseConf_DacteevMusic /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_DacteevMusicTests" /* Build configuration list for PBXNativeTarget "DacteevMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_DacteevMusicTests" /* Debug */,
+				_ReleaseConf_DacteevMusicTests /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = __RootObject_ /* Project object */;
+}
